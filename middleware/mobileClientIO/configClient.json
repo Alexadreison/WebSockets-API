@@ -1,0 +1,8 @@
+{
+    "reconnection" : true,
+    "reconnectionAttempts" : "",
+    "reconnectionDelay" : "",
+    "reconnectionDelayMax" : "",
+    "timeout" : ""
+
+}

@@ -1,0 +1,21 @@
+
+h1 {
+    text-align : center;
+    color : black;
+}
+
+#map {
+    width : 50%;
+    height : 500px;
+}
+
+#clientsColors {
+    background-color : #DEB887;
+    width : 50%;
+    height : 80px;
+}
+
+#clients {
+    
+    list-style-type: none;
+}

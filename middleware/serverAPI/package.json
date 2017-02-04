@@ -1,0 +1,9 @@
+{
+    "name": "ServerAPI",
+    "version": "0.0.0",
+    "description": "My server WebSocket API ",
+    "main" : "serverIO.js",
+    "dependencies": {
+        "socket.io": "latest"
+  }
+}

@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en" >
+  
+  <head>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width">
+
+    <title>Mobile Watching</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
+    <script src="client.io.js"></script>
+    
+    <!--
+    <script src="client_side.js"></script>
+    -->
+    
+    <script src="mobile_app.js"></script>
+    
+  </head>
+  
+  <body>
+    
+    <h1>Welcome Mobile Client</h1>
+    
+      <div>
+        <p>It's a mobile application in which client begins sending its coordinates to server. When its position changes,
+           client sends new coordinates! Press the button to start sending client's position.
+        </p>
+      </div>
+      
+      <div id = "user">
+      
+        <label for="devName"><b>Type a name : </b></label><br>
+        <input type="text" id = 'devName' placeholder = "Your mobile name" />
+      
+        <span id = "notice"></span>
+      
+        <button id = 'sendName'>Set Name</button><br>
+      
+      </div><br>
+      
+      <button id='start'>Start APP</button>
+      
+      <button id='stop'>Stop APP</button><br><hr>
+      
+      <p><strong>Here will be displayed client's positions</strong></p>
+      
+      <div id='positions'></div>
+      
+  </body>
+</html>
